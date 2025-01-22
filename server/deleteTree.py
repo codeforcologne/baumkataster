@@ -5,7 +5,7 @@ import psycopg2
 from dotenv import load_dotenv
 import os 
 
-load_dotenv('/home/python_env/config.env')
+load_dotenv('/yourpath/.env')
 
 try:
     arguments = cgi.FieldStorage()
